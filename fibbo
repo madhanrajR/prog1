@@ -1,0 +1,19 @@
+import java.util.Scanner;
+public class HelloWorld{
+
+     public static void main(String []args){
+        int n,b=1,r=0,a=-1;
+        Scanner s= new Scanner(System.in);
+       System.out.println("enter the limit");
+       n=s.nextInt();
+       while(r<n)
+       {
+           r=a+b;
+           System.out.println(r);
+           a=b;
+           b=r;
+       }
+        
+       
+}
+}
