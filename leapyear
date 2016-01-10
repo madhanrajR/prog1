@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class HelloWorld{
+
+     public static void main(String []args){
+         Scanner scanner = new Scanner( System.in );
+         int check=0,year;
+         System.out.println("enter the year");
+         year=scanner.nextInt();
+         if(year%400==0)
+            check=1;
+         else if(year%100==0)
+            check=0;
+         else if(year%4==0)
+            check=1;
+        if(check==1)
+            System.out.println("leap year");
+        else
+            System.out.println("not leap year");
+            
+     }
+}
