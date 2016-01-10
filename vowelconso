@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class HelloWorld{
+
+     public static void main(String []args){
+         Scanner scanner = new Scanner( System.in );
+         char n;
+        System.out.println("enter a letter");
+        n = scanner.next(".").charAt(0);
+        if(n=='a'||n=='e'||n=='i'||n=='o'||n=='u')
+            System.out.println("vowel");
+        else    
+                System.out.println("consonant");
+     }
+}
