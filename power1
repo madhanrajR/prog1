@@ -1,0 +1,18 @@
+import java.util.Scanner;
+public class HelloWorld{
+
+     public static void main(String []args){
+        int b,p,r=1,i;
+        Scanner s= new Scanner(System.in);
+        System.out.println("enter the base");
+        b=s.nextInt();
+        System.out.println("enter the power");
+        p=s.nextInt();
+        for(i=0;i<p;i++)
+        {
+            r=r*b;
+        }
+        System.out.println(r);
+        
+     }
+}
