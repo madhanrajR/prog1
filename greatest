@@ -1,0 +1,22 @@
+import java.util.Scanner;
+public class HelloWorld{
+
+     public static void main(String []args){
+         Scanner scanner = new Scanner( System.in );
+         int n1,n2,n3;
+        System.out.println("enter three numbers");
+        n1 = scanner.nextInt();
+        n2 = scanner.nextInt();
+        n3 = scanner.nextInt();
+        if(n1!=n2&&n2!=n3)
+            if(n1>n2)
+                if(n1>n3)
+                    System.out.println(n1+" is the greatest number"); 
+                else
+                    System.out.println(n3+" is the greatest number");
+            else
+                System.out.println(n2+" is the greatest number");
+        else
+            System.out.println("all are equal");
+     }
+}
